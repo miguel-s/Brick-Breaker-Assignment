@@ -17,7 +17,6 @@
 		3998B8431958765500192C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8411958765500192C26 /* Main.storyboard */; };
 		3998B8461958765500192C26 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B8451958765500192C26 /* MSViewController.m */; };
 		3998B8491958765500192C26 /* MSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B8481958765500192C26 /* MSMyScene.m */; };
-		3998B84B1958765500192C26 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B84A1958765500192C26 /* Spaceship.png */; };
 		3998B84D1958765500192C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998B84C1958765500192C26 /* Images.xcassets */; };
 		3998B8541958765500192C26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8531958765500192C26 /* XCTest.framework */; };
 		3998B8551958765500192C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B82D1958765500192C26 /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		3998B8451958765500192C26 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
 		3998B8471958765500192C26 /* MSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMyScene.h; sourceTree = "<group>"; };
 		3998B8481958765500192C26 /* MSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMyScene.m; sourceTree = "<group>"; };
-		3998B84A1958765500192C26 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		3998B84C1958765500192C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3998B8521958765500192C26 /* Brick Breaker AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick Breaker AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3998B8531958765500192C26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +126,6 @@
 				3998B8451958765500192C26 /* MSViewController.m */,
 				3998B8471958765500192C26 /* MSMyScene.h */,
 				3998B8481958765500192C26 /* MSMyScene.m */,
-				3998B84A1958765500192C26 /* Spaceship.png */,
 				3998B84C1958765500192C26 /* Images.xcassets */,
 				3998B8361958765500192C26 /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				3998B83A1958765500192C26 /* InfoPlist.strings in Resources */,
 				3998B84D1958765500192C26 /* Images.xcassets in Resources */,
-				3998B84B1958765500192C26 /* Spaceship.png in Resources */,
 				3998B8431958765500192C26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
