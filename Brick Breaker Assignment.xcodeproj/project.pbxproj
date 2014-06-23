@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3998B82E1958765500192C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B82D1958765500192C26 /* Foundation.framework */; };
+		3998B8301958765500192C26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B82F1958765500192C26 /* CoreGraphics.framework */; };
+		3998B8321958765500192C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8311958765500192C26 /* UIKit.framework */; };
+		3998B8341958765500192C26 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8331958765500192C26 /* SpriteKit.framework */; };
+		3998B83A1958765500192C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8381958765500192C26 /* InfoPlist.strings */; };
+		3998B83C1958765500192C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B83B1958765500192C26 /* main.m */; };
+		3998B8401958765500192C26 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B83F1958765500192C26 /* MSAppDelegate.m */; };
+		3998B8431958765500192C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8411958765500192C26 /* Main.storyboard */; };
+		3998B8461958765500192C26 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B8451958765500192C26 /* MSViewController.m */; };
+		3998B8491958765500192C26 /* MSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B8481958765500192C26 /* MSMyScene.m */; };
+		3998B84B1958765500192C26 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B84A1958765500192C26 /* Spaceship.png */; };
+		3998B84D1958765500192C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998B84C1958765500192C26 /* Images.xcassets */; };
+		3998B8541958765500192C26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8531958765500192C26 /* XCTest.framework */; };
+		3998B8551958765500192C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B82D1958765500192C26 /* Foundation.framework */; };
+		3998B8561958765500192C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8311958765500192C26 /* UIKit.framework */; };
+		3998B85E1958765500192C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3998B85C1958765500192C26 /* InfoPlist.strings */; };
+		3998B8601958765500192C26 /* Brick_Breaker_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B85F1958765500192C26 /* Brick_Breaker_AssignmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3998B8571958765500192C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3998B8221958765500192C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3998B8291958765500192C26;
+			remoteInfo = "Brick Breaker Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3998B82A1958765500192C26 /* Brick Breaker Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brick Breaker Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3998B82D1958765500192C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3998B82F1958765500192C26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3998B8311958765500192C26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3998B8331958765500192C26 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3998B8371958765500192C26 /* Brick Breaker Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brick Breaker Assignment-Info.plist"; sourceTree = "<group>"; };
+		3998B8391958765500192C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3998B83B1958765500192C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3998B83D1958765500192C26 /* Brick Breaker Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brick Breaker Assignment-Prefix.pch"; sourceTree = "<group>"; };
+		3998B83E1958765500192C26 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		3998B83F1958765500192C26 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		3998B8421958765500192C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3998B8441958765500192C26 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		3998B8451958765500192C26 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		3998B8471958765500192C26 /* MSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMyScene.h; sourceTree = "<group>"; };
+		3998B8481958765500192C26 /* MSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMyScene.m; sourceTree = "<group>"; };
+		3998B84A1958765500192C26 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		3998B84C1958765500192C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3998B8521958765500192C26 /* Brick Breaker AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick Breaker AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3998B8531958765500192C26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3998B85B1958765500192C26 /* Brick Breaker AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brick Breaker AssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		3998B85D1958765500192C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3998B85F1958765500192C26 /* Brick_Breaker_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brick_Breaker_AssignmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3998B8271958765500192C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B8301958765500192C26 /* CoreGraphics.framework in Frameworks */,
+				3998B8321958765500192C26 /* UIKit.framework in Frameworks */,
+				3998B8341958765500192C26 /* SpriteKit.framework in Frameworks */,
+				3998B82E1958765500192C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3998B84F1958765500192C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B8541958765500192C26 /* XCTest.framework in Frameworks */,
+				3998B8561958765500192C26 /* UIKit.framework in Frameworks */,
+				3998B8551958765500192C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3998B8211958765500192C26 = {
+			isa = PBXGroup;
+			children = (
+				3998B8351958765500192C26 /* Brick Breaker Assignment */,
+				3998B8591958765500192C26 /* Brick Breaker AssignmentTests */,
+				3998B82C1958765500192C26 /* Frameworks */,
+				3998B82B1958765500192C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3998B82B1958765500192C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3998B82A1958765500192C26 /* Brick Breaker Assignment.app */,
+				3998B8521958765500192C26 /* Brick Breaker AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3998B82C1958765500192C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3998B82D1958765500192C26 /* Foundation.framework */,
+				3998B82F1958765500192C26 /* CoreGraphics.framework */,
+				3998B8311958765500192C26 /* UIKit.framework */,
+				3998B8331958765500192C26 /* SpriteKit.framework */,
+				3998B8531958765500192C26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3998B8351958765500192C26 /* Brick Breaker Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				3998B83E1958765500192C26 /* MSAppDelegate.h */,
+				3998B83F1958765500192C26 /* MSAppDelegate.m */,
+				3998B8411958765500192C26 /* Main.storyboard */,
+				3998B8441958765500192C26 /* MSViewController.h */,
+				3998B8451958765500192C26 /* MSViewController.m */,
+				3998B8471958765500192C26 /* MSMyScene.h */,
+				3998B8481958765500192C26 /* MSMyScene.m */,
+				3998B84A1958765500192C26 /* Spaceship.png */,
+				3998B84C1958765500192C26 /* Images.xcassets */,
+				3998B8361958765500192C26 /* Supporting Files */,
+			);
+			path = "Brick Breaker Assignment";
+			sourceTree = "<group>";
+		};
+		3998B8361958765500192C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3998B8371958765500192C26 /* Brick Breaker Assignment-Info.plist */,
+				3998B8381958765500192C26 /* InfoPlist.strings */,
+				3998B83B1958765500192C26 /* main.m */,
+				3998B83D1958765500192C26 /* Brick Breaker Assignment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3998B8591958765500192C26 /* Brick Breaker AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3998B85F1958765500192C26 /* Brick_Breaker_AssignmentTests.m */,
+				3998B85A1958765500192C26 /* Supporting Files */,
+			);
+			path = "Brick Breaker AssignmentTests";
+			sourceTree = "<group>";
+		};
+		3998B85A1958765500192C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3998B85B1958765500192C26 /* Brick Breaker AssignmentTests-Info.plist */,
+				3998B85C1958765500192C26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3998B8291958765500192C26 /* Brick Breaker Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3998B8631958765500192C26 /* Build configuration list for PBXNativeTarget "Brick Breaker Assignment" */;
+			buildPhases = (
+				3998B8261958765500192C26 /* Sources */,
+				3998B8271958765500192C26 /* Frameworks */,
+				3998B8281958765500192C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brick Breaker Assignment";
+			productName = "Brick Breaker Assignment";
+			productReference = 3998B82A1958765500192C26 /* Brick Breaker Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3998B8511958765500192C26 /* Brick Breaker AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3998B8661958765500192C26 /* Build configuration list for PBXNativeTarget "Brick Breaker AssignmentTests" */;
+			buildPhases = (
+				3998B84E1958765500192C26 /* Sources */,
+				3998B84F1958765500192C26 /* Frameworks */,
+				3998B8501958765500192C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3998B8581958765500192C26 /* PBXTargetDependency */,
+			);
+			name = "Brick Breaker AssignmentTests";
+			productName = "Brick Breaker AssignmentTests";
+			productReference = 3998B8521958765500192C26 /* Brick Breaker AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3998B8221958765500192C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Miguel Serrano";
+				TargetAttributes = {
+					3998B8511958765500192C26 = {
+						TestTargetID = 3998B8291958765500192C26;
+					};
+				};
+			};
+			buildConfigurationList = 3998B8251958765500192C26 /* Build configuration list for PBXProject "Brick Breaker Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3998B8211958765500192C26;
+			productRefGroup = 3998B82B1958765500192C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3998B8291958765500192C26 /* Brick Breaker Assignment */,
+				3998B8511958765500192C26 /* Brick Breaker AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3998B8281958765500192C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B83A1958765500192C26 /* InfoPlist.strings in Resources */,
+				3998B84D1958765500192C26 /* Images.xcassets in Resources */,
+				3998B84B1958765500192C26 /* Spaceship.png in Resources */,
+				3998B8431958765500192C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3998B8501958765500192C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B85E1958765500192C26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3998B8261958765500192C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B8401958765500192C26 /* MSAppDelegate.m in Sources */,
+				3998B8461958765500192C26 /* MSViewController.m in Sources */,
+				3998B8491958765500192C26 /* MSMyScene.m in Sources */,
+				3998B83C1958765500192C26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3998B84E1958765500192C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3998B8601958765500192C26 /* Brick_Breaker_AssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3998B8581958765500192C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3998B8291958765500192C26 /* Brick Breaker Assignment */;
+			targetProxy = 3998B8571958765500192C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3998B8381958765500192C26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3998B8391958765500192C26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3998B8411958765500192C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3998B8421958765500192C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3998B85C1958765500192C26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3998B85D1958765500192C26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3998B8611958765500192C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3998B8621958765500192C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3998B8641958765500192C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick Breaker Assignment/Brick Breaker Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Brick Breaker Assignment/Brick Breaker Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3998B8651958765500192C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick Breaker Assignment/Brick Breaker Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Brick Breaker Assignment/Brick Breaker Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3998B8671958765500192C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brick Breaker Assignment.app/Brick Breaker Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick Breaker Assignment/Brick Breaker Assignment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brick Breaker AssignmentTests/Brick Breaker AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3998B8681958765500192C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brick Breaker Assignment.app/Brick Breaker Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick Breaker Assignment/Brick Breaker Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Brick Breaker AssignmentTests/Brick Breaker AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3998B8251958765500192C26 /* Build configuration list for PBXProject "Brick Breaker Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3998B8611958765500192C26 /* Debug */,
+				3998B8621958765500192C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3998B8631958765500192C26 /* Build configuration list for PBXNativeTarget "Brick Breaker Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3998B8641958765500192C26 /* Debug */,
+				3998B8651958765500192C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3998B8661958765500192C26 /* Build configuration list for PBXNativeTarget "Brick Breaker AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3998B8671958765500192C26 /* Debug */,
+				3998B8681958765500192C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3998B8221958765500192C26 /* Project object */;
+}
