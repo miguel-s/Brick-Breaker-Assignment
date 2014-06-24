@@ -23,6 +23,29 @@
 		3998B8561958765500192C26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998B8311958765500192C26 /* UIKit.framework */; };
 		3998B85E1958765500192C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3998B85C1958765500192C26 /* InfoPlist.strings */; };
 		3998B8601958765500192C26 /* Brick_Breaker_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998B85F1958765500192C26 /* Brick_Breaker_AssignmentTests.m */; };
+		3998B86D195877B900192C26 /* BrickPurple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B86B195877B900192C26 /* BrickPurple@2x.png */; };
+		3998B86E195877B900192C26 /* BrickRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B86C195877B900192C26 /* BrickRed@2x.png */; };
+		3998B870195877C500192C26 /* BrickYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B86F195877C500192C26 /* BrickYellow@2x.png */; };
+		3998B876195877D600192C26 /* BallBounce.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3998B871195877D600192C26 /* BallBounce.caf */; };
+		3998B877195877D600192C26 /* BrickSmash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3998B872195877D600192C26 /* BrickSmash.caf */; };
+		3998B878195877D600192C26 /* LevelUp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3998B873195877D600192C26 /* LevelUp.caf */; };
+		3998B879195877D600192C26 /* LoseLife.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3998B874195877D600192C26 /* LoseLife.caf */; };
+		3998B87A195877D600192C26 /* PaddleBounce.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3998B875195877D600192C26 /* PaddleBounce.caf */; };
+		3998B87D195877E200192C26 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B87B195877E200192C26 /* Button@2x.png */; };
+		3998B87E195877E200192C26 /* MenuPanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B87C195877E200192C26 /* MenuPanel@2x.png */; };
+		3998B881195877EE00192C26 /* HeartEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B87F195877EE00192C26 /* HeartEmpty@2x.png */; };
+		3998B882195877EE00192C26 /* HeartFull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B880195877EE00192C26 /* HeartFull@2x.png */; };
+		3998B884195877F700192C26 /* BrickGrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B883195877F700192C26 /* BrickGrey@2x.png */; };
+		3998B8861958780100192C26 /* BrickBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8851958780100192C26 /* BrickBlue@2x.png */; };
+		3998B88A1958780E00192C26 /* BallBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8871958780E00192C26 /* BallBlue@2x.png */; };
+		3998B88B1958780E00192C26 /* BrickGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8881958780E00192C26 /* BrickGreen@2x.png */; };
+		3998B88C1958780E00192C26 /* Paddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998B8891958780E00192C26 /* Paddle@2x.png */; };
+		39C510E01958B1DD000B721B /* MSBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C510DF1958B1DD000B721B /* MSBrick.m */; };
+		39C510E41958BFCC000B721B /* MBallBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C510E11958BFCC000B721B /* MBallBlue@2x.png */; };
+		39C510E51958BFCC000B721B /* MBrickBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C510E21958BFCC000B721B /* MBrickBlue@2x.png */; };
+		39C510E61958BFCC000B721B /* MBrickGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C510E31958BFCC000B721B /* MBrickGreen@2x.png */; };
+		39C510EA1959C4C2000B721B /* BrickExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39C510E81959C4C2000B721B /* BrickExplosion.sks */; };
+		39C510EE1959C9DB000B721B /* MSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C510ED1959C9DB000B721B /* MSMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +81,31 @@
 		3998B85B1958765500192C26 /* Brick Breaker AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brick Breaker AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		3998B85D1958765500192C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3998B85F1958765500192C26 /* Brick_Breaker_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brick_Breaker_AssignmentTests.m; sourceTree = "<group>"; };
+		3998B86B195877B900192C26 /* BrickPurple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickPurple@2x.png"; sourceTree = "<group>"; };
+		3998B86C195877B900192C26 /* BrickRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickRed@2x.png"; sourceTree = "<group>"; };
+		3998B86F195877C500192C26 /* BrickYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickYellow@2x.png"; sourceTree = "<group>"; };
+		3998B871195877D600192C26 /* BallBounce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BallBounce.caf; sourceTree = "<group>"; };
+		3998B872195877D600192C26 /* BrickSmash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrickSmash.caf; sourceTree = "<group>"; };
+		3998B873195877D600192C26 /* LevelUp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LevelUp.caf; sourceTree = "<group>"; };
+		3998B874195877D600192C26 /* LoseLife.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoseLife.caf; sourceTree = "<group>"; };
+		3998B875195877D600192C26 /* PaddleBounce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PaddleBounce.caf; sourceTree = "<group>"; };
+		3998B87B195877E200192C26 /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		3998B87C195877E200192C26 /* MenuPanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuPanel@2x.png"; sourceTree = "<group>"; };
+		3998B87F195877EE00192C26 /* HeartEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeartEmpty@2x.png"; sourceTree = "<group>"; };
+		3998B880195877EE00192C26 /* HeartFull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeartFull@2x.png"; sourceTree = "<group>"; };
+		3998B883195877F700192C26 /* BrickGrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickGrey@2x.png"; sourceTree = "<group>"; };
+		3998B8851958780100192C26 /* BrickBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickBlue@2x.png"; sourceTree = "<group>"; };
+		3998B8871958780E00192C26 /* BallBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BallBlue@2x.png"; sourceTree = "<group>"; };
+		3998B8881958780E00192C26 /* BrickGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrickGreen@2x.png"; sourceTree = "<group>"; };
+		3998B8891958780E00192C26 /* Paddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paddle@2x.png"; sourceTree = "<group>"; };
+		39C510DE1958B1DD000B721B /* MSBrick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBrick.h; sourceTree = "<group>"; };
+		39C510DF1958B1DD000B721B /* MSBrick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBrick.m; sourceTree = "<group>"; };
+		39C510E11958BFCC000B721B /* MBallBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBallBlue@2x.png"; sourceTree = "<group>"; };
+		39C510E21958BFCC000B721B /* MBrickBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBrickBlue@2x.png"; sourceTree = "<group>"; };
+		39C510E31958BFCC000B721B /* MBrickGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBrickGreen@2x.png"; sourceTree = "<group>"; };
+		39C510E81959C4C2000B721B /* BrickExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrickExplosion.sks; sourceTree = "<group>"; };
+		39C510EC1959C9DB000B721B /* MSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenu.h; sourceTree = "<group>"; };
+		39C510ED1959C9DB000B721B /* MSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +174,14 @@
 				3998B8451958765500192C26 /* MSViewController.m */,
 				3998B8471958765500192C26 /* MSMyScene.h */,
 				3998B8481958765500192C26 /* MSMyScene.m */,
+				39C510DE1958B1DD000B721B /* MSBrick.h */,
+				39C510DF1958B1DD000B721B /* MSBrick.m */,
+				39C510EC1959C9DB000B721B /* MSMenu.h */,
+				39C510ED1959C9DB000B721B /* MSMenu.m */,
 				3998B84C1958765500192C26 /* Images.xcassets */,
+				39C510E71959C4A9000B721B /* Particles */,
+				3998B8691958777C00192C26 /* Images */,
+				3998B86A1958779300192C26 /* Sounds */,
 				3998B8361958765500192C26 /* Supporting Files */,
 			);
 			path = "Brick Breaker Assignment";
@@ -159,6 +214,48 @@
 				3998B85C1958765500192C26 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3998B8691958777C00192C26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39C510E11958BFCC000B721B /* MBallBlue@2x.png */,
+				39C510E21958BFCC000B721B /* MBrickBlue@2x.png */,
+				39C510E31958BFCC000B721B /* MBrickGreen@2x.png */,
+				3998B8871958780E00192C26 /* BallBlue@2x.png */,
+				3998B8851958780100192C26 /* BrickBlue@2x.png */,
+				3998B8881958780E00192C26 /* BrickGreen@2x.png */,
+				3998B883195877F700192C26 /* BrickGrey@2x.png */,
+				3998B86B195877B900192C26 /* BrickPurple@2x.png */,
+				3998B86C195877B900192C26 /* BrickRed@2x.png */,
+				3998B86F195877C500192C26 /* BrickYellow@2x.png */,
+				3998B87B195877E200192C26 /* Button@2x.png */,
+				3998B87F195877EE00192C26 /* HeartEmpty@2x.png */,
+				3998B880195877EE00192C26 /* HeartFull@2x.png */,
+				3998B87C195877E200192C26 /* MenuPanel@2x.png */,
+				3998B8891958780E00192C26 /* Paddle@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3998B86A1958779300192C26 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3998B871195877D600192C26 /* BallBounce.caf */,
+				3998B872195877D600192C26 /* BrickSmash.caf */,
+				3998B873195877D600192C26 /* LevelUp.caf */,
+				3998B874195877D600192C26 /* LoseLife.caf */,
+				3998B875195877D600192C26 /* PaddleBounce.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		39C510E71959C4A9000B721B /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				39C510E81959C4C2000B721B /* BrickExplosion.sks */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +335,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3998B88C1958780E00192C26 /* Paddle@2x.png in Resources */,
+				3998B87A195877D600192C26 /* PaddleBounce.caf in Resources */,
+				3998B878195877D600192C26 /* LevelUp.caf in Resources */,
+				3998B86E195877B900192C26 /* BrickRed@2x.png in Resources */,
 				3998B83A1958765500192C26 /* InfoPlist.strings in Resources */,
+				3998B879195877D600192C26 /* LoseLife.caf in Resources */,
+				3998B88A1958780E00192C26 /* BallBlue@2x.png in Resources */,
+				3998B882195877EE00192C26 /* HeartFull@2x.png in Resources */,
+				3998B870195877C500192C26 /* BrickYellow@2x.png in Resources */,
+				3998B88B1958780E00192C26 /* BrickGreen@2x.png in Resources */,
+				3998B87D195877E200192C26 /* Button@2x.png in Resources */,
 				3998B84D1958765500192C26 /* Images.xcassets in Resources */,
+				3998B87E195877E200192C26 /* MenuPanel@2x.png in Resources */,
+				3998B86D195877B900192C26 /* BrickPurple@2x.png in Resources */,
+				3998B877195877D600192C26 /* BrickSmash.caf in Resources */,
+				39C510E61958BFCC000B721B /* MBrickGreen@2x.png in Resources */,
+				3998B8861958780100192C26 /* BrickBlue@2x.png in Resources */,
+				39C510EA1959C4C2000B721B /* BrickExplosion.sks in Resources */,
+				39C510E51958BFCC000B721B /* MBrickBlue@2x.png in Resources */,
+				39C510E41958BFCC000B721B /* MBallBlue@2x.png in Resources */,
+				3998B881195877EE00192C26 /* HeartEmpty@2x.png in Resources */,
+				3998B876195877D600192C26 /* BallBounce.caf in Resources */,
 				3998B8431958765500192C26 /* Main.storyboard in Resources */,
+				3998B884195877F700192C26 /* BrickGrey@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +379,9 @@
 			files = (
 				3998B8401958765500192C26 /* MSAppDelegate.m in Sources */,
 				3998B8461958765500192C26 /* MSViewController.m in Sources */,
+				39C510E01958B1DD000B721B /* MSBrick.m in Sources */,
 				3998B8491958765500192C26 /* MSMyScene.m in Sources */,
+				39C510EE1959C9DB000B721B /* MSMenu.m in Sources */,
 				3998B83C1958765500192C26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +589,7 @@
 				3998B8651958765500192C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3998B8661958765500192C26 /* Build configuration list for PBXNativeTarget "Brick Breaker AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +598,7 @@
 				3998B8681958765500192C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
